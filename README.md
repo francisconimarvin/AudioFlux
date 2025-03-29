@@ -1,4 +1,6 @@
-# AudioFlux
+# AudioFlux 
+Copyright 2025 Marvin Francisconi.
+-- Leer LICENSE para más información sobre la licencia y derechos de autor.
 
 **AudioFlux** es una aplicación web de chat de voz anónimo, diseñada para permitir que los usuarios se conecten y conversen de manera segura y sin revelar su identidad. Utilizando tecnologías modernas como Django, WebRTC y MySQL, AudioFlux proporciona una experiencia de chat en tiempo real de alta calidad y completamente anónima.
 
