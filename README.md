@@ -1,34 +1,26 @@
-# AudioFlux 
-Copyright 2025 Marvin Francisconi.
--- Leer LICENSE para más información sobre la licencia y derechos de autor.
+# AudioFlux
 
-**AudioFlux** es una aplicación web de chat de voz anónimo, diseñada para permitir que los usuarios se conecten y conversen de manera segura y sin revelar su identidad. Utilizando tecnologías modernas como Django, WebRTC y MySQL, AudioFlux proporciona una experiencia de chat en tiempo real de alta calidad y completamente anónima.
+Copyright 2025 Marvin Francisconi.
+\-- Leer LICENSE para más información sobre la licencia y derechos de autor.
+
+**AudioFlux** es una aplicación web de chat de voz anónimo, diseñada para permitir que los usuarios se conecten y conversen de manera segura y sin revelar su identidad. Utiliza tecnologías modernas como **Java Spring Boot, WebSockets y MariaDB**, proporcionando una experiencia de chat en tiempo real de alta calidad y completamente anónima.
 
 ---
 
 ## 🛠 Tecnologías Utilizadas
 
-- **Django**: Framework web basado en Python para gestionar el backend de la aplicación.
-- **WebRTC**: Protocolo para la comunicación de voz en tiempo real entre navegadores.
-- **MySQL**: Base de datos relacional para almacenar las sesiones de usuario y la gestión de chats.
-- **JavaScript (WebSockets)**: Para la comunicación en tiempo real entre el frontend y el backend.
-- **HTML/CSS**: Para la creación de la interfaz de usuario.
+* **Java 17 + Spring Boot 3.5.5**: Framework backend para la gestión de la lógica de negocio, seguridad, servicios y persistencia de datos.
+* **WebSockets**: Comunicación en tiempo real para el chat de voz.
+* **MariaDB / MySQL**: Base de datos relacional para almacenar usuarios, salas y sesiones.
+* **Gradle**: Sistema de construcción y gestión de dependencias.
+* **HTML / CSS / JavaScript**: Para el frontend y la interacción con WebSockets.
 
 ---
 
 ## 🌐 Funcionalidades
 
-- **Chat de voz anónimo**: Los usuarios pueden conectarse de manera anónima y participar en conversaciones de voz.
-- **Conexión en tiempo real**: Utiliza WebRTC para una comunicación fluida sin necesidad de plugins adicionales.
-- **Gestión de sesiones**: Almacenamiento de las sesiones de chat y la participación de usuarios en una base de datos MySQL.
-- **Interfaz sencilla y accesible**: Un diseño limpio y fácil de usar para una experiencia de usuario fluida.
+* **Chat de voz anónimo**: Los usuarios se conectan con nombres aleatorios sin necesidad de registro.
+* **Emparejamiento aleatorio**: Servicio que conecta automáticamente dos usuarios disponibles en una sala de audio.
+* **Gestión de salas dinámica**: Las salas se crean y eliminan según la actividad de los usuarios, optimizando memoria y almacenamiento.
+* **Interfaz sencilla y accesible**: Diseño limpio y fácil de usar para una experiencia fluida.
 
----
-
-## 🚀 Instalación
-
-Sigue estos pasos para configurar y ejecutar el proyecto localmente:
-
-1. **Clona el repositorio**:
-   ```bash
-   git clone https://github.com/tu_usuario/AudioFlux.git
